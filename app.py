@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.geometry("300x270")
-root.title("Calculator 2.0")
+root.title("Gui Calculator 2.0")
 
 def type_value(value):
 	display.insert(END,value)
