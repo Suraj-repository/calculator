@@ -3,6 +3,7 @@ from tkinter import *
 root = Tk()
 root.geometry("300x270")
 root.title("Gui Calculator 2.0")
+root.configure(bg="skyblue")
 
 def type_value(value):
 	display.insert(END,value)
@@ -38,7 +39,7 @@ def check_type():
 
 		except:
 			clear_display()
-			type_value("You broke it... :(")
+			type_value("please recheck operation👁")
 
 display = Entry(root, font=("Calibri",20))
 
